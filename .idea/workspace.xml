@@ -32,11 +32,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/sell-main" />
+      <recent name="$PROJECT_DIR$/assets/e-commerce" />
       <recent name="$PROJECT_DIR$/assets/SellMain" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -66,6 +69,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="404" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625741005849">
+      <screen x="0" y="23" width="1280" height="714" />
+    </state>
+    <state x="404" y="245" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.714@0.23.1280.714" timestamp="1625741005849" />
     <state width="1259" height="264" key="GridCell.Tab.0.bottom" timestamp="1625694724402">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
