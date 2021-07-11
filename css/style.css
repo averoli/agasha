@@ -9,9 +9,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
-    width: 100%;
 }
+
 
 h1, h2, h3, h4 {
     font-family: Ibarra Real Nova;
@@ -20,12 +19,6 @@ h1, h2, h3, h4 {
 p, a {
     font-family: Roboto;
     font-style: normal;
-}
-
-.section {
-    display: flex;
-    margin: 0;
-    padding-left: 135px;
 }
 
 .link {
@@ -37,9 +30,35 @@ p, a {
     text-decoration: none;
 }
 
+.main-wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+
+.main-wrapper-lg {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper-block-lg {
+    padding-left: 85px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .text-wrapper {
     width: 274px;
-    margin-right: 144px;
 }
 
 .text {
@@ -65,7 +84,6 @@ p, a {
     font-size: 42px;
     line-height: 54px;
     color: #000000;
-    margin-top: 0;
 }
 
 .h4 {
@@ -75,13 +93,35 @@ p, a {
     color: #000000;
     line-height: 44px;
     letter-spacing: 1px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0;
 }
 
+.arrow {
+    background-image: url("../assets/sell-main/arrow.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 0.3em;
+    padding-right: 1.5em;
+}
+
+.arrow-white {
+    background-image: url("../assets/sell-main/arrow-white.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 0.3em;
+    padding-right: 1.5em;
+}
 
 /*SECTION 1 */
+.main-wrapper-xl {
+    max-width: 1285px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .block {
+    display: flex;
     flex-direction: column;
     height: 960px;
 }
@@ -130,7 +170,9 @@ p, a {
 .group-right {
     position: absolute;
     top: 129px;
-    right: 42px;
+    left: 870px;
+    /*right: -202px;*/
+    margin-right: 40px;
 }
 
 .group-left {
@@ -147,7 +189,7 @@ p, a {
 .block-link {
     position: absolute;
     top: 739px;
-    right: 267px;
+    right: -80px;
 }
 
 .text-link {
@@ -161,9 +203,11 @@ p, a {
 
 /*SECTION PRICING*/
 .pricing {
-    background-color: black;
-    padding: 160px 0 0 184px;
-    height: 728px;
+    background-image: url("../assets/sell-main/background-pricing.png");
+}
+
+.block-height {
+    padding: 160px 60px;
 }
 
 .pricing-h2 {
@@ -190,20 +234,11 @@ p, a {
     display: flex;
     flex-direction: column;
     width: 533px;
-    margin-right: 40px;
 }
 
 .pricing-block-wrapper {
     display: flex;
     flex-direction: column;
-}
-
-.pricing-block {
-    display: flex;
-    width: 467px;
-    height: 188px;
-    border-radius: 10px;
-    opacity: 0.89;
 }
 
 .indiv {
@@ -212,7 +247,17 @@ p, a {
 }
 
 .prof {
-    background: url("../assets/sell-main/rectangle-prof.png");
+    background: #FFFFFF;
+    opacity: 0.89;
+    box-shadow: 0 4px 94px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.pricing-block {
+    display: flex;
+    width: 467px;
+    height: 188px;
+    justify-content: space-evenly;
 }
 
 .pricing-h4 {
@@ -221,7 +266,6 @@ p, a {
     font-size: 24px;
     line-height: 44px;
     letter-spacing: 1px;
-    color: #FFFFFF;
 }
 
 .pricing-h3 {
@@ -230,24 +274,45 @@ p, a {
     font-size: 44px;
     line-height: 44px;
     letter-spacing: 1px;
+    margin-top: 0.8em;
+    margin-bottom: 0;
+}
+
+.text-sold {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-top: 0.1em;
+}
+
+.price-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.white {
     color: #FFFFFF;
 }
 
+.black {
+    color: #000000;
+}
 
 /*SECTION INTRODUCTION */
 .introduction {
     display: flex;
     flex-direction: column;
-    padding: 160px 0 160px 135px;
+    justify-content: center;
+    padding: 121px 15px;
 }
 
 .h3 span {
     color: #FF1B43;
     font-style: italic;
-}
-
-.wrapper {
-    display: flex;
 }
 
 
@@ -256,13 +321,13 @@ p, a {
     background-image: url("../assets/sell-main/plastic-bag-texture-background-plastic-film-background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 130px 0 130px 135px;
+    padding: 121px 0;
+    display: flex;
+    align-items: center;
 }
 
 .faq-text-wrapper {
     width: 338px;
-    margin-right: 80px;
-    align-items: start;
 }
 
 .faq-h2 {
@@ -275,20 +340,25 @@ p, a {
     padding: 0.3em 0 0.3em 0;
 }
 
+
+/*FOOTER */
 .frame {
     background-image: url("../assets/sell-main/frame-21.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
 }
-/*FOOTER */
+
 .footer {
     align-items: center;
     background-color: black;
-    height: 114px;
+    padding: 33px 0;
 }
 
-.footer-text-wrapper {
-    margin-right: 180px;
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .footer-h4 {
     font-style: normal;
@@ -327,7 +397,6 @@ p, a {
     font-size: 16px;
     line-height: 32px;
     color: #7D8793;
-    padding-left: 10px;
 }
 
 .input:-moz-placeholder {
@@ -369,6 +438,30 @@ p, a {
     border-style: none;
 }
 
+@media (max-width: 768px) {
+    .group-left {
+        display: none;
+    }
+    .block-first {
+        display: none;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .block-height {
+        padding: 140px 40px;
+    }
+    .wrapper-block-lg {
+        padding-left: 0;
+    }
+    .main-wrapper-lg {
+        padding: 0 40px;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+}
 
 /*E-commers*/
 
