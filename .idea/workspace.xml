@@ -20,11 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80faae27-a60a-4f04-aff4-27f61cd315e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexEcommrce.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexEcommrce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slick/slick.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/slick" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/assets/sell-main" />
       <recent name="$PROJECT_DIR$/assets/e-commerce" />
-      <recent name="$PROJECT_DIR$/assets/SellMain" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.indexEcommrce.html">

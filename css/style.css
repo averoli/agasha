@@ -39,7 +39,7 @@ p, a {
 
 .wrapper {
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: space-between;
     min-width: 0;
 }
@@ -182,6 +182,9 @@ p, a {
 /*SECTION PRICING*/
 .pricing {
     background-image: url("../assets/sell-main/background-pricing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .block-height {
@@ -290,7 +293,7 @@ p, a {
     padding: 121px 135px;
 }
 
-.h3 span {
+.red {
     color: #FF1B43;
     font-style: italic;
 }
@@ -335,7 +338,7 @@ p, a {
 .footer {
     align-items: center;
     background-color: black;
-    padding: 33px 0;
+    padding: 33px 0 10px;
 }
 
 .footer-wrapper {
@@ -366,7 +369,7 @@ p, a {
 }
 
 .input {
-    width: 360px;
+    width: 492px;
     height: 48px;
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -444,6 +447,10 @@ p, a {
         height: 1250px;
     }
 
+    h3 {
+        margin-top: 0;
+    }
+
     .become {
         top: 60px;
         left: 20px;
@@ -507,6 +514,140 @@ p, a {
 
     .footer-wrapper {
         flex-direction: column;
+        align-items: start;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .h1 {
+        font-size: 64px;
+    }
+
+    .h3 {
+        font-size: 30px;
+    }
+
+    .main-wrapper {
+        position: static;
+        padding: 0 16px;
+    }
+
+    .block {
+        height: 940px;
+    }
+
+    .become {
+        top: 60px;
+        left: 24px;
+        font-size: 20px;
+    }
+
+    .group-left {
+        display: none;
+    }
+
+    .group-right {
+        display: flex;
+        top: 128px;
+        left: 44px;
+    }
+
+    img {
+        width: 286px;
+    }
+
+    .ahasha {
+        top: 528px;
+        left: 0;
+    }
+
+    .seller {
+        top: 600px;
+        left: 81px;
+    }
+
+    .block-first-text {
+        top: 652px;
+        left: 97px;
+        font-size: 12px;
+    }
+
+    .block-link {
+        top: 732px;
+        left: 165px;
+    }
+
+    .block-second {
+        padding-bottom: 140px;
+    }
+
+    .block-height {
+        padding: 100px 16px 140px;
+    }
+
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 100px 16px;
+    }
+
+    .mobile-block {
+        display: inline-block;
+    }
+
+    .pricing-block-text {
+        width: auto;
+    }
+
+    .pricing-h3 {
+        font-size: 40px;
+    }
+
+    .text-sold {
+        font-size: 12px
+    }
+
+    .indiv {
+        width: 342px;
+    }
+
+    .prof {
+        width: 342px;
+    }
+
+    .pricing-h2 {
+        font-size: 38px;
+    }
+
+    .pricing-p {
+        font-size: 12px;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: start;
+        padding: 10px 0 40px 16px
+    }
+
+    .form {
+        padding-top: 10px;
+    }
+
+    .input {
+        width: 342px;
+        height: 48px;
+    }
+
+    .btn {
+        width: 342px;
+        height: 48px;
+        margin-top: 20px;
     }
 }
 
@@ -549,7 +690,7 @@ p, a {
     overflow: hidden;
 }
 
-.slick-track{
+.slick-track {
     display: flex;
     justify-content: space-between;
     min-width: 0;
@@ -559,20 +700,21 @@ p, a {
     width: 274px;
 }
 
-.slick-dots{
+.slick-dots {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.slick-dots li button{
+.slick-dots li button {
     display: none;
 }
 
-.slider .slick-dots li{
+.slider .slick-dots li {
     list-style: none;
     margin: 0 10px;
 }
+
 /*.slick-dots li{}*/
 /*!* Активная точка *!*/
 /*.slick-dots li.slick-active{}*/
