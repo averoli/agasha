@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.slider').slick({
-    dots: true,
+    dots: false,
     arrows: false,
     infinite: false,
     speed: 300,
@@ -10,11 +10,12 @@ $(document).ready(function () {
     centerPadding: '0px',
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1440,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
+          dots: true,
           centerPadding: '0px',
         }
       },
@@ -23,6 +24,7 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
           centerPadding: '10px'
         }
       }
